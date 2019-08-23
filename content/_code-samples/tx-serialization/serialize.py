@@ -246,7 +246,7 @@ def hash_to_bytes(contents):
     Helper function; serializes a hash value from a hexadecimal string
     of any length.
     """
-    return bytes.fromhex(field_val)
+    return bytes.fromhex(contents)
 
 def object_to_bytes(obj):
     """
